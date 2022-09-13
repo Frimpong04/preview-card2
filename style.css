@@ -17,7 +17,7 @@ html {
 
 body {
     background-color: var(--background-color);
-    
+    height:100vh;
 }
 
 p {
@@ -34,7 +34,7 @@ p {
     width:50%;
     display:flex;
     justify-content:center;
-    margin:50% auto;
+    margin:10% auto;
     background-color: var(--text-background);
     border-radius:2rem;
     flex-wrap:wrap;
@@ -112,7 +112,7 @@ button {
 }
 
 /* media query for mobile */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 400px) {
     html {
         font-size:55%;
     }
